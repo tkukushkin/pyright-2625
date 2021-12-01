@@ -15,4 +15,4 @@ COPY . .
 RUN pip install -e .
 
 # Run pyright
-CMD bash -c 'export NVM_DIR="$HOME/.nvm"; \. "$NVM_DIR/nvm.sh"; pyright --verifytypes pyright_2625'
+CMD bash -c 'export NVM_DIR="$HOME/.nvm"; \. "$NVM_DIR/nvm.sh"; pyright --version;  pyright --verifytypes pyright_2625'
